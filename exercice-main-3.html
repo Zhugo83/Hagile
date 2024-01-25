@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/2bb90c57b5.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- faut supprimer la div -->
+        <div>
+            <a href="/"><img src="img/cropped-Logo-Hagile.png" alt="Logo du site"></a>
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Hagile</a></li>
+                    <li><a href="#">Coaching</a></li>
+                    <li><a href="#">Formation</a></li>
+                    <li><a href="#">DAF externalisé</a></li>
+                    <li><a href="#">Consulting</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <i id="burger" class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div>
+                <article>
+                    <h1>HAGILE®</h1>
+                    <p>Co-entrepreneurs auprès des PTE-PME afain d'accompagner les dirigeants à traverser cette prériode d'incertitudes durables</p>
+                    <a href="#">En savoir plus</a>
+                </article>
+                <!-- Supprimer l'article autour de l'img -->
+                <article>
+                    <img src="img/Hagile-illustration.png" alt="Logo explicatif du site">
+                </article>
+            </div>
+        </section>
+        <section>
+            <img src="Img/Logo-Hagile.png" alt="Autre logo Hagile">
+        </section>
+        <section>
+            <p>Hagile® est née d’un savoureux mélange de compétences permettant d’offrir une démarche globale, pertinente, pérenne et qui offre du « sur-mesure » pour chaque entreprise afin de renouer avec la croissance.</p>
+        </section>
+        <section>
+            <!-- La div n'est pas utile -->
+            <div>
+                <!-- mettre les background number 🙏 -->
+                <article>
+                    <h2>Vos souhaits</h2>
+                    <p>Gagnez en sérénité, en  performance et en fiabilité  tout en étant entouré d’équipes motivées et efficaces</p>
+                </article>
+                <article>
+                    <h2>Notre démarche</h2>
+                    <p>À l’aide de questionnaires spécifiques et d’entretiens avec vous en physique ou par visio-conférence nous priorisons vos besoins selon notre analyse et nos échanges</p>
+                </article>
+                <article>
+                    <h2>En route vers l'agilité</h2>
+                    <p>Nous vous accompagnons afin de rendre votre entreprise agile d’un point de vue stratégique, organisationnel et financier</p>
+                </article>
+            </div>
+        </section>
+        <section>
+            <p>Connaissez-vous les 3 clés pour renouer avec la croissance dans cette période d'incertitudes durables et à optimiser les talents de votre entreprise ?</p>
+            <a href="#">En savoir plus</a>
+        </section>
+        <section>
+            <!-- tu as 2 div :
+                div 1 : avec un titre 2 et le form
+            -->
+            <div>
+                <article>
+                    <h2>Nous contacter</h2>
+                    <form action="/url" method="GET">
+                        <p>Votre société</p>
+                        <input type="text" rows="5" , placeholder="Comment se nome votre société">
+                        <p>Vos informations</p>
+                        <input type="text" rows="5", placeholder="Comment vous appelez-vous ?">
+                        <p>Votre mail</p>
+                        <input type="text" rows="5", placeholder="A quelle adresse mail pouvons-nous vous joindre ?">
+                        <p>Votre demande</p>
+                        <textarea id="bigblock" type="text" rows="5", placeholder="Dites-nous pour quelle raison vous nous contactez."></textarea>
+                        <p>Protection des données</p>
+                        <input type="checkbox", name="test"> 
+                        <label name="test"> En soumettant ce formulaire, j'accepte que les informations saisies soient transmises par mail au seul destinataire de Hagile® dans le but d'être recontacté concernant la demande effectuée. Je comprends que j'ai un droit de modification, d'accès et de suppression de mes informations personnelles.</label><br>
+                        <input type="submit">
+                    </form>
+                    <!-- TODO: replace input with textarea, remove "a" and replace with submit -->
+                    <!-- Envoyer doit etre dans le formulaire, pour ce bouton tu utiliser soit input type submit soit button -->
+                </article>
+                <article>
+                    <div>
+                        <p>Vous êtes intéressé par notre méthode et notre démarche et vous souhaitez faire appel à nous afin de profiter de nos compétences ? Utilisez notre formulaire de contact pour que nous puissions nous mettre en relation et commencer une belle aventure ensemble.</p>
+                    </div>
+                    <div>
+                        <p>Coaching individuel ou cohésion d'équipe, appelez-nous :</p>
+                        <h1>Lucile Havet - 06 30 56 07 25</h1>
+                    </div>
+                    <div>
+                        <p>Contactez-nous par mail :</p>
+                        <h1>lucile@hagile.fr</h1>
+                    </div>
+                    <div>
+                        <p>Retroutez-nous sur les rèseaux sociaux</p>
+                        <h1>Linkedin</h1>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p> © 2020 Hagile® - Création de site : <a href="storycom.fr">StoryCom</a> | <a href="https://google.com">Mentions légales</a>.</p>
+    </footer>
+</body>
+</html>

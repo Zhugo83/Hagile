@@ -1,0 +1,325 @@
+body {
+    background-position: center;
+    background-image: url(https://lh3.googleusercontent.com/p/AF1QipNflehggPfBGFJTvsueu8ea3aRncGnMQM_BBvms=s680-w680-h510);
+    background-attachment: fixed;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* General shit */
+*{
+    margin: 0px;
+}
+
+:root{
+    --main-color: #F17124; 
+    --secondary-color: white;
+}
+
+.btn{
+    color: var(--main-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 30px;
+    font-size: 25px;
+    display: block;
+    text-align: left;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: 'Open Sans';
+}
+
+/* This is a header, not a head :) */
+header{
+    background-color: var(--secondary-color);
+}
+header div{
+    max-width: 1920px;
+    justify-content: space-between;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+header div nav ul{
+    display: flex;
+    gap: 40px;
+    font-size: 25px;
+}
+
+header div nav ul li a:hover{
+    color: var(--main-color);
+    transition:all 0.2s;
+}
+
+header div img{
+    max-width: 170px;
+}
+
+/* This is the section1, Yes it truly is! */
+main section:nth-child(1){
+    padding-top: 150px 15px;
+    background-color: #FAFAFA;
+}
+
+main section:nth-child(1) div{
+    max-width: 1920px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    align-items: center;
+    padding: 0px 35px;
+}
+
+main section:nth-child(1) div article > h1{
+    color: var(--main-color);
+    font-size: 60px;
+}
+
+main section:nth-child(1) div article > p{
+    font-size: 35px;
+    padding: 40px 0px;
+}
+
+main section:nth-child(1) div article > a{
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    border-radius: 30px;
+    padding:10px 40px;
+    font-size: 35px;
+}
+/* You should get MAX SIZE ⚡⚡ NOW!! ⚡⚡*/
+main section:nth-child(1) div article > img{
+    width: 100%;
+}
+
+/* Section2, aka 1 FUCKING IMAGE, RAH DIEE!!! */
+main section:nth-child(2){
+    background-color: var(--secondary-color);
+}
+
+main section:nth-child(2) > img{
+    max-width: 1920px;
+    padding: 150px;
+    display: block;
+    margin: auto;
+}
+
+/* Section3, 1 paragraphe */
+main section:nth-child(3){
+    background: var(--main-color);
+}
+
+main section:nth-child(3) > p{
+    color: var(--secondary-color);
+    font-size: 35px;
+    max-width: 1148px;
+    padding: 100px 40px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+/* Section4, 3 colone */
+main section:nth-child(4){
+    background-color: var(--secondary-color);
+    padding: 150px 0px;
+}
+
+main section:nth-child(4) div{
+    display: grid; /* flex marche aussi ¯\_(ツ)_/¯ */
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    max-width: 1440px;
+    justify-content: space-between;
+}
+
+main section:nth-child(4) div article h2{
+    color: var(--main-color);
+    padding: 25px;
+    padding-bottom: 45px;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+main section:nth-child(4) div article:nth-child(1) h2{
+    background-image: url(https://hagile.fr/wp-content/uploads/2020/09/01.png);
+    background-position:left;
+    background-repeat: no-repeat;
+}
+
+main section:nth-child(4) div article:nth-child(2) h2{
+    background-image: url(https://hagile.fr/wp-content/uploads/2020/09/02.png);
+    background-position:left;
+    background-repeat: no-repeat;
+}
+
+main section:nth-child(4) div article:nth-child(3) h2{
+    background-image: url(https://hagile.fr/wp-content/uploads/2020/09/03.png);
+    background-position:left;
+    background-repeat: no-repeat;
+}
+
+main section:nth-child(4) div article p{
+    margin: 15px;
+    font-size: 25px;
+}
+
+/* section5 */
+main section:nth-child(5){
+    max-width: 1920px;
+    padding: 180px 30px;
+}
+
+main section:nth-child(5) p{
+    color: var(--secondary-color);
+    font-size: 30px;
+    padding: 40px 0px;
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+}
+
+main section:nth-child(5) a{
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 30px;
+    padding:10px 40px;
+    font-size: 30px;
+}
+
+/* section6, I've run out of funny joke */
+main section:nth-child(6){
+    background-color: var(--secondary-color);
+}
+
+main section:nth-child(6) div article:nth-child(1), main section:nth-child(6) div article:nth-child(2){
+    background-color: #343A40;
+    padding: 20px 30px;
+}
+
+main section:nth-child(6) > div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    padding: 150px 15px;
+    max-width: 1440px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+main section:nth-child(6) div article:nth-child(1) p,
+main section:nth-child(6) div article:nth-child(1) form{
+    color: var(--secondary-color);
+    padding: 20px;
+    font-size: 25px;
+}
+
+main section:nth-child(6) div article:nth-child(1) input{
+    border: 1px solid var(--secondary-color);
+    border-radius: 30px;
+    font-size: 25px;
+    display: block;
+    background-color: #343A40;
+    width: 100%;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+
+main section:nth-child(6) div article:nth-child(1) h2{
+    color: var(--main-color);
+    font-size: 35px;
+    padding: 20px;
+}
+
+main section:nth-child(6) div article:nth-child(1) textarea{
+    border: 1px solid var(--secondary-color);
+    border-radius: 30px;
+    font-size: 25px;
+    display: block;
+    background-color: #343A40;
+    width: 100%;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+
+
+main section:nth-child(6) div article:nth-child(1) #bigblock{
+    border: 1px solid var(--secondary-color);
+    border-radius: 30px;
+    padding:0px;
+    font-size: 25px;
+    display: block;
+    background-color: #343A40;
+}
+
+main section:nth-child(6) div article:nth-child(2) div{
+    padding: 20px 30px;
+}
+
+main section:nth-child(6) div article:nth-child(2) p{
+    color: #BDBEBE;
+    font-size: 25px;
+}
+
+main section:nth-child(6) div article:nth-child(2) h1{
+    color: #E96F25; 
+    font-size: 25px;
+}
+/* Footer */
+footer > p{
+    color: orange;
+    background-color: #EFEFEF;
+    padding: 15px;
+    text-align: center;
+}
+
+footer a{
+    color: orange;
+}
+
+/* TODO: Finish footer, text font, random numbers go, numbers behind title, colors */
+
+@media screen and (max-width: 1024px){
+    nav{
+        display: none;
+    }
+    main section:nth-child(1) div{
+        display: block;
+        padding-top: 200px;
+    }
+
+    main section:nth-child(1) div article > img{
+        margin: 100px 0px;
+    }
+
+    main section:nth-child(4) div{
+        display:block
+    }
+
+    main section:nth-child(5) p{
+        color: var(--secondary-color);
+        font-size: 30px;
+        padding: 40px 0px;
+        grid-template-columns: repeat(1, 1fr);
+        display: grid;
+    }
+
+    main section:nth-child(6) > div{
+        display: block;
+    }
+    main section:nth-child(6) div article:nth-child(2){
+        margin-top: 50px;;
+    }
+}
